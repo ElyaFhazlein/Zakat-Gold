@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="#FFFFCC"
+    tools:context=".AboutActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="ABOUT US"
+        android:textColor="#151414"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:text="ZAKAT GOLD SDN BHD"
+        android:textColor="#673AB7"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_alignLeft="@id/textView2"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="67dp"
+        android:text="Addres : Kota Bharu, Kelantan"
+        android:textColor="#161616"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/phoneIcon"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="101dp"
+        android:layout_marginTop="90dp"
+        android:background="#000000"
+        android:backgroundTint="#000000"
+        app:srcCompat="@android:drawable/stat_sys_speakerphone" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_alignLeft="@id/textView2"
+        android:layout_alignParentBottom="false"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginBottom="2dp"
+        android:text="Phone Number: 019 - 4226589"
+        android:textColor="#161616"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/location"
+        android:layout_width="18dp"
+        android:layout_height="16dp"
+        android:layout_marginLeft="101dp"
+        android:layout_marginTop="118dp"
+        android:background="#000000"
+        android:backgroundTint="#151515"
+        app:srcCompat="@android:drawable/ic_menu_myplaces" />
+
+    <ImageView
+        android:id="@+id/openIcon"
+        android:layout_width="19dp"
+        android:layout_height="16dp"
+        android:layout_marginLeft="101dp"
+        android:layout_marginTop="146dp"
+        android:background="#000000"
+        app:srcCompat="@android:drawable/ic_menu_recent_history" />
+
+    <ImageView
+        android:id="@+id/closeIcon"
+        android:layout_width="19dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="101dp"
+        android:layout_marginTop="173dp"
+        android:background="#000000"
+        app:srcCompat="@android:drawable/ic_menu_recent_history" />
+
+    <TextView
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_alignLeft="@id/textView2"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="120dp"
+        android:text="Close: 6:00 p.m."
+        android:textColor="#161616"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_alignLeft="@id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="92dp"
+        android:text="Open: 10:00 am"
+        android:textColor="#161616"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textViewLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_alignLeft="@id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="170dp"
+        android:gravity="center"
+        android:text="@string/messageWithLink"
+        android:textColor="#eabf03"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_alignLeft="@id/textView2"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="232dp"
+        android:text="copyright @ Zakat Gold SDN BHD"
+        android:textSize="10sp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>
